@@ -20,7 +20,7 @@ export default class Floor extends Component {
                     width: width,
                     height: height,
                     overflow: 'hidden',
-                    flexDirection: 'row'
+                    // flexDirection: 'row'
                 }}>
                 {Array.apply(null, Array(imageIterations)).map(( el, idx) => {
                     return <Image style={{ width: height, height: height }} key={idx} resizeMode="stretch" source={Images.floor} />

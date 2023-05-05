@@ -133,12 +133,10 @@ const styles = StyleSheet.create({
     gameOverText: {
         color: 'white',
         fontSize: 48,
-        fontFamily: '04b_19'
     },
     gameOverSubText: {
         color: 'white',
         fontSize: 24,
-        fontFamily: '04b_19'
     },
     fullScreen: {
         position: 'absolute',
@@ -160,7 +158,6 @@ const styles = StyleSheet.create({
         textShadowColor: '#444444',
         textShadowOffset: { width: 2, height: 2},
         textShadowRadius: 2,
-        fontFamily: '04b_19'
     },
     fullScreenButton: {
         position: 'absolute',
